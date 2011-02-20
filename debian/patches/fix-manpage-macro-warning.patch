@@ -1,0 +1,12 @@
+Prepend comment to line that looks like roff macro
+--- a/git-sh.1.roff
++++ b/git-sh.1.roff
+@@ -187,7 +187,7 @@
+ .IP "" 0
+ .
+ .P
+-... you might then have the following shell session:
++\\... you might then have the following shell session:
+ .
+ .IP "" 4
+ .

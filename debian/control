@@ -1,0 +1,16 @@
+Source: git-sh
+Maintainer: Alex Morega <alex@grep.ro>
+Section: vcs
+Priority: optional
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.3.8)
+Homepage: http://rtomayko.github.com/git-sh/
+
+Package: git-sh
+Architecture: all
+Depends: ${misc:Depends}, git
+Description: a git shell
+ git-sh starts an interactive bash(1) session modified for git-heavy
+ workflows.  Typical usage is to change into the directory of a git work
+ tree or bare repository and run the git-sh command to start an interactive
+ shell session.

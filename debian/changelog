@@ -1,0 +1,5 @@
+git-sh (1.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #590440)
+
+ -- Alex Morega <alex@grep.ro>  Sun, 6 Mar 2011 22:12:40 +0200

@@ -1,0 +1,11 @@
+Install git-sh in /usr instead of /usr/local
+--- a/Makefile
++++ b/Makefile
+@@ -1,6 +1,6 @@
+ SHELL    = /bin/sh
+ DESTDIR  =
+-PREFIX   = $(DESTDIR)/usr/local
++PREFIX   = $(DESTDIR)/usr
+ 
+ execdir  = $(PREFIX)/bin
+ datadir  = $(PREFIX)/share
